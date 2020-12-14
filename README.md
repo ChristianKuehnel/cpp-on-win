@@ -23,7 +23,8 @@ To make installation as easy as possible, we'll be using
 [Chocolately](https://chocolatey.org/) as package manager to install the tools 
 we need: 
 
-1. Install chocolately https://chocolatey.org/install using admin rights.
+1. Install chocolately using admin rights follinging these instructions: 
+   https://chocolatey.org/install
 
 1. In a Powershell *with admin rights* run:
 ```choco install -y cmake ninja llvm git vscode git```
@@ -61,7 +62,7 @@ this by configuring a first project to see if everything is working.
       was successful.
    1. Run `> CMake: run without Debugging` (or hit `<shift> + <F5>`). This will run
       your program in the Terminal and show you the console output. If you see the
-      output `Hello, world!` you program was run successfully.
+      output `Hello, world!` your program was run successfully.
 
 That's it. You just downloaded a project from Github, configured CMake, compiled
 and linked the project and were able to run the resulting program.
