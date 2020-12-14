@@ -1,5 +1,5 @@
 
-# C++ on Windows 
+# Developing C++ on Windows 
 
 This tutoris will walk you through installing and configuring widely used
 C++ development tools on Windows. 
