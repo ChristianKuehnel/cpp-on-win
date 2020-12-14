@@ -1,18 +1,22 @@
 
-# Tools 
+# C++ on Windows 
 
-## Overview
+This tutoris will walk you through installing and configuring widely used
+C++ development tools on Windows. 
+
+## Tool Overview
 We will be using these tools as they are widely used in open source development:
 * [Cmake](https://cmake.org/) - as build management system
 * [Ninja](https://ninja-build.org/) - as build system actually doing the building
-* [LLVM](http://llvm.org/) - as compiler (clang) , linker (lld), debugger (lldb), language server (clangd)
+* [LLVM](http://llvm.org/) - as compiler (clang) , linker (lld), debugger (lldb), 
+  language server (clangd)
 * [git](https://git-scm.com/) - as version control tool (e.g. to work on Github)
 
 While not really required, I would recommend using an integrated development 
 environment. IMHO this makes using all these tools much easier. In this tutorial,
-we'll be using *Visual Studio Code* from Microsoft (short VSCode). While not 100% open source,
-it has hughe ecosystem of extensions available and also works across many
-operating systems and languages.
+we'll be using [Visual Studio Code](https://code.visualstudio.com/) from Microsoft (short VSCode). 
+While not 100% open source, it has hughe ecosystem of extensions available and 
+also works across many operating systems and languages.
 
 ## Installation
 To make installation as easy as possible, we'll be using Chocolately as package 
@@ -28,7 +32,7 @@ on all questions during the installation.
 That's it.
 
 
-# Configuring VSCode
+## Configuring VSCode
 Now that we have all the tools installed, we need to configure them. We will do
 this by configuring a first project to see if everything is working.
 
@@ -62,4 +66,4 @@ That's it. You just downloaded a project from Github, configured CMake, compiled
 and linked the project and were able to run the resulting program.
 
 
-# TODO: Running the debugger
+## TODO: Running the debugger
