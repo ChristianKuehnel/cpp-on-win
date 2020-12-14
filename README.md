@@ -19,8 +19,9 @@ While not 100% open source, it has hughe ecosystem of extensions available and
 also works across many operating systems and languages.
 
 ## Installation
-To make installation as easy as possible, we'll be using Chocolately as package 
-manager. It will then install the tools we need: 
+To make installation as easy as possible, we'll be using 
+[Chocolately](https://chocolatey.org/) as package manager to install the tools 
+we need: 
 
 1. Install chocolately https://chocolatey.org/install using admin rights.
 
