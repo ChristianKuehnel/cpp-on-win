@@ -1,8 +1,8 @@
 
 # Developing C++ on Windows 
 
-This tutoris will walk you through installing and configuring widely used
-C++ development tools on Windows. 
+This tutorial will walk you through installing and configuring widely used
+C++ development tools on Windows.
 
 ## Tool Overview
 We will be using these tools as they are widely used in open source development:
