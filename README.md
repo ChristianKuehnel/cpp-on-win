@@ -67,8 +67,33 @@ this by configuring a first project to see if everything is working.
 That's it. You just downloaded a project from Github, configured CMake, compiled
 and linked the project and were able to run the resulting program.
 
+## Running the debugger
 
-## TODO: Running the debugger
+1. Install the 
+[CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb) 
+extension from the marketplace.
+1. Configure the target you want to debug:
+```json
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug",
+            "program": "${workspaceFolder}/build/<your executable>",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
+```
+1. Start the debugger with `<F5>`. When asked which "environment" to use
+   select `LLDB` from the list.
+
+That's it, now you can debug your C++ project in VSCode. More information on
+debugging in VSCode can be found in the 
+[manual](https://code.visualstudio.com/docs/editor/debugging).
 
 ## TODO: Unit testing 
 using GTest
